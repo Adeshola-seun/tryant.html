@@ -1,0 +1,102 @@
+body{
+      padding:0px;
+      margin :0px;
+      background-color:#f0f2f5;
+      font-family:Arial, sans serif;
+}
+.box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:99%;
+    height:99vh;
+}
+.btn-tittle{
+    width:480px;
+}
+.btn-tittle h1{
+    width:235px;
+    margin-bottom:-5px;
+    font-size:60px;
+    color: #8b9dc3:
+}
+.btn-tittle p{
+    color:#000;
+    font-size:26px;
+    font-weight:normal;
+    line-weight:32px;
+}
+.form-bo{
+    width:350px;
+    padding:15px;
+    text-align:center;
+    border-radius:5px;
+    background:#fff;
+    margin-left:60px;
+    box-shadow: 0px 2px 10px 1px rgb(71,71,71,0.52);
+}
+.form-bo input{
+  width:100%;
+  margin-bottom:15px;
+  padding:15px;
+  font-size:18px;
+  box-sizing:border-box;
+  border:1px solid #eeebeb;
+  border-radius:5px;
+  outline:none;
+}
+.form-bo input:focus{
+    box-shadow:0px 0px 1px 1px rgb(22, 111,229);
+}
+.form-bo button{
+width:100%;
+margin-bottom:15px;
+color:#fff;
+font-size:20px;
+font-weight:600px;
+border-radius:5px;
+border:none;
+padding:13px 0;
+cursor:pointer;
+background:#166fe5;
+}
+.form-bo button:hover{
+    background:#1877f2;
+}
+.form-bo a{
+    color:#166fe5;
+    font-size:14px;
+    text-decoration:none;
+    margin-top:5px;
+    margin-bottom:20px;
+    display:block;
+}
+.form-bo a:hover{
+    text-decoration:underline;
+}
+.form-bo hr{
+    border:1px solid #dadde1;
+    margin-bottom:15px;
+}
+.form-bo .Createbtn a{
+    color: #fff;
+    font-size:16px;
+    text-decoration:none;
+    padding:15px 20px;
+    border-radius:5px;
+    background:#36a420;
+    font-width:600;
+    display:inline-block;
+    margin-bottom:5px;
+}
+.bbox{
+  text-align:center;
+  position: fixed;
+  padding:220px 0px 0px 350px;
+  margin: 200px 0px 0px 200px;
+  }
+  .bbox p a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  }
